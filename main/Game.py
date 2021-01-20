@@ -11,7 +11,7 @@ def main():
     pygame.mixer.music.play(-1, 0.0)
     pygame.mixer.music.set_volume(0.25)
     screen = pygame.display.set_mode(core.SCREENSIZE)
-    pygame.display.set_caption('Game Animation')
+    pygame.display.set_caption('By Rizwan.AR')
 
     start_interface = StartInterface(core)
     is_play = start_interface.update(screen)
